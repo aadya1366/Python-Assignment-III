@@ -1,0 +1,14 @@
+Program:
+def factorial(a):
+    if a<2:
+      return 1
+    else:
+      c=(int(a*(factorial(a-1))))
+    return c
+b=int(input('Enter a number: '))
+result=factorial(b)
+print ('Factorial of 5 is :',result)
+
+Output:
+Enter a number: 5
+Factorial of 5 is : 120
